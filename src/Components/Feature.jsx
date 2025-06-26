@@ -15,7 +15,7 @@ const Feature = ({featureID,title,subTitle,description,profileImage}) => {
         titleClassName="sm:pe-[20vw] md:pe-[1px] md:text-[30px] lg:text-[45px] font-semibold "
         title="SM Digital Agency."
         subTitle="agency foundations"
-        pera="Learn how to set your agency up for success. Basically  everything you need to get up and running…"
+        pera="Learn hello how to set your agency up for success. Basically  everything you need to get up and running…"
       />
     </div>
   );
