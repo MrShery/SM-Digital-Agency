@@ -1,0 +1,29 @@
+import React from "react";
+import SectionTitleInfo from "../../SectionTitleInfo";
+import SmLogo from "../../../assets/Media/Logo/Asset 1.png";
+import AccordionItem from "../../AccordionItem";
+import Accordion from "../../Accordion";
+
+const QuestionSection = () => {
+  return (
+    <section id="terms_conditions" className="h-full px-4">
+    <div className="my-5">
+          <SectionTitleInfo
+        subTitle="Frequently asked questions"
+        title="Still Have Questions?"
+      />
+    </div>
+      <div className="mx-auto w-[22vw] h-[6vw] flex justify-center items-center  rounded-xl customGradient-bg2">
+        <div className=" w-[21.2vw] h-[5.2vw] rounded-2xl bg-[#000000]">
+          <img src={SmLogo} alt="" className="sm:px-6 px-3 md:px-10 py-1  md:py-4" />
+        </div>
+      </div>
+      <div className=" w-[73vw] md:w-[51.2vw] py-[2px] flex justify-center items-center  rounded-xl mx-auto bg-[linear-gradient(185deg,#8043ef_0%,#8043ef_0%,#00000075_100%)] ">
+        <Accordion />
+        {/* <div className='w-[850px] h-[594px] bg-purple-600 absolute top-[5%] left-[-10%]  -z-[1] rotatingAnimation2 rotatingAnimation'></div> */}
+      </div>
+    </section>
+  );
+};
+
+export default QuestionSection;
