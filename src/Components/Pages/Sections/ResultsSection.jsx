@@ -3,13 +3,14 @@ import SectionTitleInfo from "../../SectionTitleInfo";
 
 const ResultsSection = () => {
   return (
-    <div className="w-[90%] py-5 my-8 customGradient-bg  mx-auto rounded-t-3xl text-center border-t border-[#8043ef]">
+    <div className="w-[87%] py-[5vw] my-8 customGradient-bg  mx-auto rounded-t-3xl text-center border-t border-[#8043ef]">
       <div className="px-[10vw">
         <SectionTitleInfo
           title="Our Students Are Changing The World"
-          subTitle={<span className="text-white">Results In Numbers</span>}
-          peraClassName="px-[3vw]"
+          subTitle={<span className="text-white lg:text-[1.172vw] font-medium">Results In Numbers</span>}
+          peraClassName="px-[3vw] lg:text-[1vw] text-[#959586]"
           pera="One student at a time, we are transforming the future of education by bringing practical knowledge to our students that will elevate their lives."
+        titleClassName="lg:px-[15vw] pb-5  bg-[linear-gradient(#ffff_100%,#ffff_100%)]"
         />
       </div>
       <div className="py-6">

@@ -5,56 +5,55 @@
 * {
   font-family: "Nunito Sans", sans-serif;
 }
-html{
+
+html {
   scroll-behavior: smooth;
 }
 body {
   background-color: black;
 }
 /* =====================Primary Text Color=============================== */
-.primaryTextColor{
+.primaryTextColor {
   color: #8043ef;
 }
-/* ============================Virtical line ========================= */
+/* ============================Virtical line and Their Glow Effect ========================= */
 .verticalLine {
   background-color: #8043ef;
   border-radius: 12px;
   color: white;
   text-align: center;
   font-size: 24px;
-  box-shadow: 0 0 20px 5px rgba(128, 67, 239, 0.6);
+  box-shadow: 0 0 20px 1.5px rgba(128, 67, 239, 0.6);
 }
 /* ============================Custom Transtion used at various Tags========================= */
-.myTransition{
-  transition: all linear .15s;
+.myTransition {
+  transition: all linear 0.15s;
 }
 /* ========================Resutls Section Background Linear Gradient=============================== */
 .customGradient-bg {
-  background-image: linear-gradient(#7f43ef69 , #0000 80%);
+  background-image: linear-gradient(#7f43ef69, #0000 80%);
   border-radius: 20px;
   align-items: center;
-
 }
 .customGradient-bg2 {
-  background-image: linear-gradient(#8043ef , #00000075 80%);
+  background-image: linear-gradient(#8043ef, #00000075 80%);
   border-radius: 20px;
   align-items: center;
-
 }
 /* =============================Image Background Glow Effect============================= */
-.bgGlow{
-  box-shadow: 0 0 100px -30px #5900ff; 
+.bgGlow {
+  box-shadow: 0 0 100px -30px #5900ff;
   cursor: pointer;
 }
 /* =============================Image Background Glow Effect On Hover============================= */
-.bgGlowHover:hover{
-  transition: all .2s ease-in-out;
-  box-shadow: 0 0 20px 5px #8043ef; 
+.bgGlowHover:hover {
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 0 20px 5px #8043ef;
   cursor: pointer;
 }
 /* ========================================= Acccordion Transition======================================== */
-.accordionTransition{
-  transition: all .3s linear;
+.accordionTransition {
+  transition: all 0.3s linear;
 }
 /* ==========================================Rotating Animation======================= */
 .rotatingAnimation {
@@ -65,11 +64,12 @@ body {
 }
 
 @keyframes rotate {
-  from{ transform: rotate(0deg);
+  from {
+    transform: rotate(0deg);
   }
-  to{ transform: rotate(360deg);
+  to {
+    transform: rotate(360deg);
   }
-  
 }
 .blinkingLine {
   animation: blink 1.5s ease-in-out infinite;
@@ -86,4 +86,22 @@ body {
     box-shadow: 0 0 0px 0px rgba(128, 67, 239, 0.6);
   }
 }
+ .circleSVG {
+  transform-origin: center;
+  transform: rotateY(180deg);
+  rotate: 100deg;
+}
 
+circle {
+  fill: none;
+  stroke: white;
+  stroke-width: 1;
+  stroke-dasharray: 130, 100;
+  stroke-dashoffset: 0;
+  transition: all 1s;
+}
+
+.ourMissionVideoContainer:hover circle {
+  stroke-dasharray: 0, 200;
+  opacity: 0.2;
+}
