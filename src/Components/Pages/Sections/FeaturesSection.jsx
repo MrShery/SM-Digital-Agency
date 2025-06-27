@@ -6,9 +6,9 @@ export const FeaturesSection = () => {
   const arr = [1, 2, 3, 4];
   const features=[{imgURL:"",title:"Learn the Agency 3.0 Model.",subTitle:"agency foundations",description:"Learn how to set your agency up for success. Basically everything you need to get up and running…"}]
   return (
-    <section id="features" className="px-[6vw] lg:px-[10vw]">
+    <section id="features" className="px-[6vw] lg:px-[10vw] pt-[16vw]">
       <SectionTitleInfo
-        titleClassName="lg:text-[45px]"
+        titleClassName="lg:text-[45px] px-[5vw] md:px-0"
         subTitleClassName="lg:text-[16px] "
         subTitle="Learning Platform"
         title="The Best Learning Platform. Period."

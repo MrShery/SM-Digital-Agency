@@ -14,7 +14,7 @@ const OurMissonSection = () => {
     setToggle(!toggle);
   };
   return (
-    <section id="our-mission" className="pb-20">
+    <section id="our-mission" className="pb-8">
       <SectionTitleInfo
         subTitle="The Mission"
         title="Reforming the Education
@@ -22,13 +22,13 @@ System"
         pera="We’re transforming the future of global education system with the world’s foremost digital learning platform and community, democratizing access to real life, practical skills and information.
 
 "
-        titleClassName=" px-[20px] sm:px-[100px] md:px-[160px]"
+        titleClassName=" px-[20px] sm:px-[5vw] md:px-[10vw]"
+        className="py-8"
       />
-      <div className=" group relative bg-white flex justify-center items-center w-[80%]  rounded-3xl overflow-hidden mx-auto cursor-pointer hover:scale-105 myTransition">
+      <div className=" group relative bg-white flex justify-center items-center w-[80%]  rounded-3xl overflow-hidden mx-auto  cursor-pointer hover:scale-105 myTransition">
         <video
           src="https://cdn.prod.website-files.com/652960d5e51ce51080354368/652e9d7c2343c58e2e861f30_video trimmed-transcode.mp4"
           muted
-          
           loop
           ref={videoRef}
           alt=""
