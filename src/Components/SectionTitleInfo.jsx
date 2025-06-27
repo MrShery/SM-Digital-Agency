@@ -11,18 +11,18 @@ const SectionTitleInfo = ({
 }) => {
   return (
     <div
-      className={` text-center flex flex-col justify-center  sm:px-10 md:px-[3vw] lg:px-[5vw]  text-white  ${className} `}
+      className={` text-center flex flex-col justify-center  sm:px-10 md:px-[3vw] lg:px-[5vw] sm:py-5  text-white  ${className} `}
     >
       {subTitle != undefined && (
         <h5
-          className={` primaryTextColor uppercase  sm:tracking-[4px] text-[3vw]  sm:text-[16px] md:text-[18px] font-bold py-[1vw]  ${subTitleClassName} `}
+          className={` primaryTextColor uppercase  sm:tracking-[4px] text-[2vw]  sm:text-[16px] md:text-[18px] font-bold py-[1vw]  ${subTitleClassName} `}
         >
           {subTitle}
         </h5>
       )}
       {title != undefined && (
         <h1
-          className={` text-[6vw] sm:text-[38px] md:text-[48px] lg:text-[64px]  font-bold leading-[6.5vw] sm:leading-[37px] md:leading-[45px] lg:leading-[65px] ${titleClassName} `}
+          className={` text-[5vw] sm:text-[38px] md:text-[48px] lg:text-[64px]  font-bold leading-[6.5vw] sm:leading-[37px] md:leading-[45px] lg:leading-[65px] md:px-3 ${titleClassName} `}
         >
           {title}
         </h1>

@@ -5,7 +5,7 @@ import { RxCross2 } from "react-icons/rx";
 
 const HelpSection = () => {
   return (
-    <section>
+    <section className="pt-[5vw]">
       <SectionTitleInfo
         titleClassName="lg:text-[43px]"
         subTitleClassName="lg:text-[13px]"

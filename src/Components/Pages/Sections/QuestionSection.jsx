@@ -20,8 +20,7 @@ const QuestionSection = () => {
       </div>
       <div className=" w-[73vw] md:w-[51.2vw] py-[2px] flex justify-center items-center  rounded-xl mx-auto bg-[linear-gradient(185deg,#8043ef_0%,#8043ef_0%,#00000075_100%)] ">
         <Accordion />
-        {/* <div className='w-[850px] h-[594px] bg-purple-600 absolute top-[5%] left-[-10%]  -z-[1] rotatingAnimation2 rotatingAnimation'></div> */}
-      </div>
+       </div>
     </section>
   );
 };
