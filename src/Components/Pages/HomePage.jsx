@@ -11,6 +11,7 @@ import QuestionSection from "./Sections/QuestionSection";
 import Footer from "../Footer";
 
 const HomePage = () => {
+  
   return (
     <section>
       <NavBar />
