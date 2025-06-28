@@ -9,7 +9,7 @@ const HeroSection = () => {
 
         title="We're Changing The Education System Forever."
         pera="We bring practical education to another level by giving you all the tools you need to thrive in this new digital age"
-        titleClassName="px-3 md:px-0 "
+        titleClassName="px-3 md:px-0 font-bold "
         className=" mt-4"
       />
       <div className="w-[80vw] mx-auto overflow-hidden translate-y-[-4.5%]">
