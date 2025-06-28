@@ -38,7 +38,7 @@ const NavBar = () => {
           </button>
         </div>
         <GrMenu onClick={()=> {setToggle(!toggle)}} className="text-white text-[5vw] xs:text-[5vw] sm:text-[30px] cursor-pointer lg:hidden" />
-        {toggle && <ResNavMenu navMenu={navMenu} setToggle={setToggle} />}
+        { <ResNavMenu navMenu={navMenu} setToggle={setToggle} toggle={toggle} />}
       </div>
     </nav>
   );

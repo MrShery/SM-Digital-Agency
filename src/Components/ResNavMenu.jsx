@@ -1,24 +1,27 @@
 import React, { useEffect, useRef } from "react";
 
-const ResNavMenu = ({ navMenu, setToggle }) => {
+const ResNavMenu = ({ navMenu, setToggle,toggle }) => {
   const resNav = useRef(null);
 
   useEffect(() => {
     const moveNav = setTimeout(() => {
-      if (resNav.current) {
-        resNav.current.style.top = "140%";
+      if (toggle) {
+        resNav.current.style.height = "70vw";
+      }
+      else{
+        resNav.current.style.height = "0vh";
       }
     }, 100);
 
     return () => clearTimeout(moveNav); // 🔄 fixed from clearInterval
-  }, []);
+  }, [toggle]);
 
   return (
     <div
       ref={resNav}
-      className=" w-[85vw] xs:w-[265px] block lg:hidden absolute top-[-1040%] z-10 right-0 bg-black border-2 border-[#3B3B3B] myTransition rounded-lg pt-3 pb-4 pe-[3vw]"
+      className={` w-[40vw] xs:w-[265px] max-h-fit block h-0 lg:hidden absolute top-[140%] z-10 right-0 overflow-hidden bg-black  myTransition rounded-lg ${toggle&&"md:border-2 border border-[#3B3B3B] "} `}
     >
-      <ul className="sm:gap-4 gap-1 flex flex-col items-end">
+      <ul className="sm:gap-4 gap-1 flex flex-col items-end pt-3 pb-4 pe-[3vw]">
         {navMenu.map((navItem, index) => (
           <li
             onClick={() => {
@@ -31,10 +34,10 @@ const ResNavMenu = ({ navMenu, setToggle }) => {
           </li>
         ))}
         <button className="text-white hover:text-purple-100 sm:text-[16px] text-[3vw]">
-          Enroll Now
+          Launch Your Brand
         </button>
         <button className="bg-white sm:text-[16px] text-[3vw] hover:text-white hover:bg-[#8043ef] myTransition rounded-lg py-[1vw] px-[5vw] md:px-[2vw]">
-          Student Login
+          Client Portal
         </button>
       </ul>
     </div>
