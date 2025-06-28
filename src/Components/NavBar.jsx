@@ -30,7 +30,7 @@ const NavBar = () => {
         </ul>
         <div className="gap-[1vw] items-center hidden lg:flex justify-end ">
           <button className="text-white hover:text-purple-100 text-[1.19vw]">
-            Lauuch Your Brand
+            Launch Your Brand
           </button>
           <button className="bg-white rounded-lg py-[.5vw] px-[1vw]">
             {" "}
