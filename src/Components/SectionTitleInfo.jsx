@@ -22,14 +22,14 @@ const SectionTitleInfo = ({
       )}
       {title != undefined && (
         <h1
-          className={` bg-[linear-gradient(180deg,#ffff_80%,#000)]  bg-clip-text text-transparent capitalize  text-[5vw] sm:text-[38px] md:text-[48px] lg:text-[65px] leading-[6.5vw] sm:leading-[37px] md:leading-[45px] lg:leading-[65px] md:px-3 pb-1 ${titleClassName} `}
+          className={` bg-[linear-gradient(180deg,#ffff_80%,#000)]  bg-clip-text text-transparent capitalize  text-[5vw] sm:text-[38px] md:text-[48px] lg:text-[4vw] leading-[6.5vw] sm:leading-[37px] md:leading-[45px] lg:leading-[4vw] md:px-3 pb-1 ${titleClassName} `}
         >
           {title}
         </h1>
       )}
       {pera != undefined && (
         <p
-          className={`xs:w-[400px] sm:w-[500px] md-w-[400px] lg:w-[66%] w-[80vw] text-[2vw] sm:text-[1.5vw] md-text-[18px] lg:text-[16px] py-[1vw] white mx-auto  ${peraClassName}`}
+          className={`xs:w-[400px] sm:w-[500px] md-w-[400px] lg:w-[66%] w-[80vw] text-[2vw] sm:text-[1.5vw] md-text-[18px] lg:text-[1.3vw] py-[1vw] white mx-auto  ${peraClassName}`}
         >
           {pera}
         </p>

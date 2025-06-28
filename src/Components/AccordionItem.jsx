@@ -31,10 +31,10 @@ const AccordionItem = ({ question, answer }) => {
           {question}
         </h4>
         <div className="relative">
-          <div className=" sm:w-4 sm:h-[2px] w-2 h-[1px] bg-white text-[25px]" />
+          <div className=" sm:w-[1.1vw] sm:h-[2px] w-2 h-[1px] bg-white text-[25px]" />
           <div
             ref={iconLine}
-            className=" sm:w-4 sm:h-[2px] w-2 h-[1px] bg-white  accordionTransition origin-left absolute top-[1%] translate-y-[-30%] left-[45%] translate-x-[-50%] text-[25px]"
+            className=" sm:w-[1.1vw] sm:h-[2px] w-2 h-[1px] bg-white  accordionTransition origin-left absolute top-[1%] translate-y-[-30%] left-[45%] translate-x-[-50%] text-[25px]"
           />
         </div>
       </div>

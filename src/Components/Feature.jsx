@@ -5,7 +5,7 @@ import SectionTitleInfo from "./SectionTitleInfo";
 const Feature = ({ featureID, title, subTitle, description, profileImage }) => {
   return (
     <div
-      className={` md:w-[90vw] lg:w-[85vw] h-full md:flex justify-center  items-center mx-auto md:px-16 md:gap-9 lg:gap-0 md:py-10 lg:py-20 ${
+      className={`  md:w-[90vw] lg:w-[85vw] h-full md:flex justify-center  items-center mx-auto md:px-16 md:gap-9 lg:gap-0 md:py-10 lg:py-20 ${
         featureID % 2 != 0 && "flex-row-reverse"
       }`}
     >
@@ -13,7 +13,7 @@ const Feature = ({ featureID, title, subTitle, description, profileImage }) => {
         <img
           src={FeatureImg1}
           alt="feature Image..."
-          className=" lg:h-[340px] md:h-[25vw] sm:h-[39vw] scale-x-[1.19]"
+          className="  w-full md:h-[25vw] sm:h-[39vw] scale-x-[1.19]"
         />
       </div>
       <SectionTitleInfo
@@ -21,7 +21,7 @@ const Feature = ({ featureID, title, subTitle, description, profileImage }) => {
           featureID % 2 != 0 && "flex-row-reverse lg:ps-0"
         }`}
         subTitleClassName="w-full text-[1.7vw] sm:text-[1vw] md:text-[1vw] sm:tracking-[1.5px] md:tracking-[2px] "
-        peraClassName=" lg:w-fit md:w-fit sm:w-fit lg:text-[16px]"
+        peraClassName=" lg:w-fit md:w-fit sm:w-fit lg:text-[1.2vw]"
         titleClassName=" px-0 md:px-[0px] sm:pe-[20vw] md:pe-[1px] md:text-[30px] lg:text-[45.5px] font-extrabold "
         title="SM Digital Agency."
         subTitle="agency foundations"
