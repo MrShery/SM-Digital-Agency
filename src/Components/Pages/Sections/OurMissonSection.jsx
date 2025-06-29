@@ -23,7 +23,7 @@ const OurMissonSection = () => {
         subTitleClassName="lg:text-[1.6vw]"
         titleClassName=" px-[20px]  sm:px-[5vw] md:px-[15vw] lg:text-[4.8vw] lg:leading-[4.8vw]  font-semibold  bg-[linear-gradient(360deg,#ffff_90%,#000)] "
         className="py-[1vw]"
-        peraClassName="px-[6vw] leading-[2.2vw] md:leading-[1.7vw] text-[#959586]"
+        peraClassName="px-[6vw] leading-[3vw] md:leading-[1.7vw] text-[#959586]"
       />
       <div className=" group ourMissionVideoContainer relative  flex justify-center items-center w-[80%]  rounded-[1.5vw] border border-[#ffffff5e] overflow-hidden mx-auto  cursor-pointer hover:scale-105 myTransition">
         <img
