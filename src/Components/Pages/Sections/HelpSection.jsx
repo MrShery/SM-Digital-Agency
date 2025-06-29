@@ -8,8 +8,8 @@ const HelpSection = () => {
     <section className="py-[2vw]">
       <SectionTitleInfo
         titleClassName="lg:text-[48px] font-bold"
-        subTitleClassName="lg:text-[18px] font-semibold lg:tracking-[3px]"
-        peraClassName=" lg:text-[18px] px-[4vw]"
+        subTitleClassName=" font-semibold lg:tracking-[3px]"
+        peraClassName="px-[4vw]"
         subTitle="Not sure if this is for you?"
         title="Our Team Is Ready To Help You"
         pera="Talk to one of our student success managers to get all your questions answered. You can schedule a free discovery call below. They'll get back to you within a few minutes and are ready to answer all your questions."

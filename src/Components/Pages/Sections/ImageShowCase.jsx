@@ -118,6 +118,7 @@ const ImageShowCase = () => {
         </div>
         <div className=" relative py-[15vw] ">
           <img
+          data-anim="left"
             src={PhoneImg1}
             alt=""
             className=" absolute top-[4vw]  right-[-16vw]  w-[27vw] h-[40vw]  flex-shrink-0 "

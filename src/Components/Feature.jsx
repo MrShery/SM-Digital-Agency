@@ -5,11 +5,11 @@ import SectionTitleInfo from "./SectionTitleInfo";
 const Feature = ({ featureID, title, subTitle, description, profileImage }) => {
   return (
     <div
-      className={`  md:w-[90vw] lg:w-[85vw] h-full md:flex justify-center  items-center mx-auto md:px-16 md:gap-9 lg:gap-0 md:py-10 lg:py-20 ${
+      className={`  md:w-[90vw] lg:w-[85vw] h-full md:flex justify-center  items-center mx-auto md:px-[2.5vw] md:gap-9 lg:gap-0 md:py-10 lg:py-20 ${
         featureID % 2 != 0 && "flex-row-reverse"
       }`}
     >
-      <div className="md:w-[35.9vw] lg:w-[49.9vw] w-[80vw] xs:w-[60vw] sm:w-[70vw] mx-auto  bgGlow rounded-xl sm:rounded-xl overflow-hidden border border-[#8043ef]">
+      <div className="md:w-[35.9vw] lg:w-[45vw] w-[80vw] xs:w-[60vw] sm:w-[70vw] mx-auto  bgGlow rounded-xl  sm:rounded-[1vw] overflow-hidden border-[2px] border-[#7f43ef57]">
         <img
           src={FeatureImg1}
           alt="feature Image..."
@@ -17,13 +17,13 @@ const Feature = ({ featureID, title, subTitle, description, profileImage }) => {
         />
       </div>
       <SectionTitleInfo
-        className={` text-start overflow-hidden w-[80vw] xs:w-[60vw] sm:w-[70vw] md:w-[50vw]  sm:px-0 md:px-[1.5vw]  mx-auto md:py-0 py-5 ${
+        className={` text-start overflow-hidden w-[80vw] xs:w-[60vw] sm:w-[70vw] md:w-[50vw]  sm:px-0 md:px-[1.5vw] lg:px-[4vw]  mx-auto md:py-0 py-5 ${
           featureID % 2 != 0 && "flex-row-reverse lg:ps-0"
         }`}
-        subTitleClassName="w-full text-[1.7vw] sm:text-[1vw] md:text-[1vw] sm:tracking-[1.5px] md:tracking-[2px] "
+        subTitleClassName="w-full text-[1.7vw] sm:text-[1vw] md:text-[1.3vw] scale-y-[.9] font-semibold lg:py-[1.5vw] sm:tracking-[1.5px] md:tracking-[2px] "
         peraClassName=" lg:w-fit md:w-fit sm:w-fit lg:text-[1.2vw]"
-        titleClassName=" px-0 md:px-[0px] sm:pe-[20vw] md:pe-[1px] md:text-[30px] lg:text-[45.5px] font-extrabold "
-        title="SM Digital Agency."
+        titleClassName=" px-0 md:px-[0px] sm:pe-[20vw] md:pe-[1px] md:text-[30px] lg:text-[3.5vw] font-bold "
+        title="Learn the Agency 3.0 Model."
         subTitle="agency foundations"
         pera="Learn hello how to set your agency up for success. Basically  everything you need to get up and running…"
       />

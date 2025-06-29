@@ -12,7 +12,7 @@ const NavBar = () => {
   ];
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className=" w-[90%] sticky top-4 z-[999] bg-gradient-to-r from-[#15091d] via-[#8043ef]  to-[#15091d] rounded-[18px] mx-auto px-[4vw] py-[.5vw] sm:py-[1.5vw] sm:px-12 lg:py-[1.3w] mt-4 flex justify-between  gap-0 lg:gap-10 items-center ">
+    <nav className=" w-[90%] sticky top-[1vw] z-[999] bg-gradient-to-r from-[#15091d] via-[#8043ef]  to-[#15091d] rounded-[18px] mx-auto px-[4vw] py-[.5vw] sm:py-[1.5vw] sm:px-12 lg:py-[1.2vw] mt-4 flex justify-between  gap-0 lg:gap-10 items-center ">
       <div>
         <Logo className="w-[13vw] sm:w-[10vw] h-[3.5vw]  sm:h-[2.06vw]" />
       </div>
