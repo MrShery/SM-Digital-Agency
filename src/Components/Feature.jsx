@@ -21,7 +21,7 @@ const Feature = ({ featureID, title, subTitle, description, profileImage }) => {
           featureID % 2 != 0 && "flex-row-reverse lg:ps-0"
         }`}
         subTitleClassName="w-full text-[1.7vw] sm:text-[1vw] md:text-[1.3vw] scale-y-[.9] font-semibold lg:py-[1.5vw] sm:tracking-[1.5px] md:tracking-[2px] "
-        peraClassName=" lg:w-fit md:w-fit sm:w-fit lg:text-[1.2vw]"
+        peraClassName=" lg:w-fit md:w-fit sm:w-fit lg:text-[1.2vw] px-[0px] mx-0"
         titleClassName=" px-0 md:px-[0px] sm:pe-[20vw] md:pe-[1px] md:text-[30px] lg:text-[3.5vw] font-bold "
         title="Learn the Agency 3.0 Model."
         subTitle="agency foundations"
