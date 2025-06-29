@@ -10,11 +10,11 @@ const AccordionItem = ({ question, answer }) => {
     if (toggle) {
       container.current.style.height = "30vw";
       accorDescription.current.style.scale = "1";
-      iconLine.current.style.rotate = "90deg";
+      iconLine.current.style.rotate = "0deg";
     } else {
       container.current.style.height = "4vw";
       accorDescription.current.style.scale = "0";
-      iconLine.current.style.rotate = "0deg";
+      iconLine.current.style.rotate = "90deg";
     }
   }, [toggle]);
 

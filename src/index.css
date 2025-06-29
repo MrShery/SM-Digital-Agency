@@ -33,13 +33,11 @@ body {
 }
 /* ========================Resutls Section Background Linear Gradient=============================== */
 .customGradient-bg {
-  background-image: linear-gradient(#7f43ef69, #0000 80%);
-  border-radius: 20px;
+  background-image: linear-gradient(#7f43ef69, #0000 60%);
   align-items: center;
 }
 .customGradient-bg2 {
   background-image: linear-gradient(#8043ef, #00000075 80%);
-  border-radius: 20px;
   align-items: center;
 }
 /* =============================Image Background Glow Effect============================= */

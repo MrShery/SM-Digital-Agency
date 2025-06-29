@@ -8,9 +8,9 @@ export const FeaturesSection = () => {
   return (
     <section id="features" className="  px-[6vw] lg:px-[5vw]  ">
       <SectionTitleInfo
-      className="pb-6 sm:px-[1px]"
-        titleClassName="lg:text-[44.5px] font-semibold lg:px-[5vw] px-[8vw] md:px-0"
-        subTitleClassName="lg:text-[16px] "
+      className=" sm:px-[1px] xl:py-[2vw]"
+        titleClassName="lg:text-[3.4vw] font-semibold lg:px-[5vw] px-[8vw] md:px-0"
+        subTitleClassName=" scale-y-100 "
         subTitle="Learning Platform"
         title="The Best Learning Platform. Period."
       />
