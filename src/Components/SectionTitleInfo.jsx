@@ -29,7 +29,7 @@ const SectionTitleInfo = ({
       )}
       {pera != undefined && (
         <p
-          className={`xs:w-[400px] sm:w-[500px] md-w-[400px] lg:w-[66%] w-[70vw] text-[2.5vw] sm:px-0  sm:text-[1.7vw] md-text-[18px] lg:text-[1.3vw] py-[1vw] white mx-auto  ${peraClassName}`}
+          className={`xs:w-[400px] sm:w-[500px] md-w-[400px] lg:w-[66%] text-[2.5vw] sm:px-0  sm:text-[1.7vw] md-text-[18px] lg:text-[1.3vw] py-[1vw] white mx-auto  ${peraClassName}`}
         >
           {pera}
         </p>
