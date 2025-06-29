@@ -14,7 +14,7 @@ const NavBar = () => {
   return (
     <nav className=" w-[90%] sticky top-[1vw] z-[999] bg-gradient-to-r from-[#15091d] via-[#8043ef]  to-[#15091d] rounded-[18px] mx-auto px-[4vw] py-[.5vw] sm:py-[1.5vw] sm:px-12 lg:py-[1.2vw] mt-4 flex justify-between  gap-0 lg:gap-10 items-center ">
       <div>
-        <Logo className="w-[13vw] sm:w-[10vw] h-[3.5vw]  sm:h-[2.06vw]" />
+        <Logo className="w-[30vw] sm:w-[10vw] h-[5.5vw]  sm:h-[2.06vw]" />
       </div>
       <div className=" w-[83%] flex lg:justify-between justify-end relative">
         <ul className="gap-[2vw] items-center hidden lg:flex text-[1.19vw]">

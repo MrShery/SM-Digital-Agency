@@ -15,7 +15,7 @@ const SectionTitleInfo = ({
     >
       {subTitle != undefined && (
         <h5
-          className={` primaryTextColor scale-y-[.8] uppercase  sm:tracking-[3px] text-[1.5vw]  sm:text-[16px] md:text-[1.472vw] font-semibold py-[.8vw]  ${subTitleClassName} `}
+          className={` primaryTextColor scale-y-[.8] uppercase  sm:tracking-[3px] text-[3.5vw]  sm:text-[16px] md:text-[1.472vw] font-semibold py-[.8vw]  ${subTitleClassName} `}
         >
           {subTitle}
         </h5>
