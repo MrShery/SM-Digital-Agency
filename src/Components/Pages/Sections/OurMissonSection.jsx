@@ -21,10 +21,10 @@ const OurMissonSection = () => {
         title="Reforming the Education System"
         pera="We’re transforming the future of global education system with the world’s foremost digital learning platform and community, democratizing access to real life, practical skills and information."
         subTitleClassName="lg:text-[1.6vw]"
-        titleClassName=" px-[20px]  sm:px-[5vw] md:px-[15vw] lg:text-[4.8vw] lg:leading-[4.8vw]  font-semibold  bg-[linear-gradient(360deg,#ffff_90%,#000)] "
+        titleClassName=" px-[20px]  sm:px-[5vw] md:px-[15vw] lg:text-[4.8vw] lg:leading-[4.8vw]  font-semibold  sm:bg-[linear-gradient(360deg,#ffff_90%,#000)] "
         className="py-[1vw]"
-        peraClassName="px-[6vw] leading-[3vw] md:leading-[1.7vw] text-[#959586]"
-      />
+        peraClassName="px-[6vw] leading-[3vw] md:text-[2vw] lg:text-[1.6vw] xs:w-fit  md:w-[65vw] text-[#959586]"
+      /> 
       <div className=" group ourMissionVideoContainer relative  flex justify-center items-center w-[80%]  rounded-[1.5vw] border border-[#ffffff5e] overflow-hidden mx-auto  cursor-pointer hover:scale-105 myTransition">
         <img
           src="https://cdn.prod.website-files.com/664cd251c9f39da04f82f2ba/664ceb72876a586715373efe_StillsJPG_2.10.4-p-1600.webp"

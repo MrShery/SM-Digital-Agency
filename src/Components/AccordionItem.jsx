@@ -24,10 +24,10 @@ const AccordionItem = ({ question, answer }) => {
       onClick={() => {
         setToggle(!toggle);
       }}
-      className="accordionTransition max-h-fit  md:max-h-fit sm:min-h-[4vw] min-h-[2vw] text-white  md:py-[1vw] h-[5vw] overflow-hidden cursor-pointer"
+      className="accordionTransition max-h-fit  md:max-h-fit sm:min-h-[6.5vw] min-h-[8vw] text-white  md:py-[1vw] h-[5vw] overflow-hidden cursor-pointer"
     >
       <div className="flex justify-between items-center">
-        <h4 className=" text-[2.2vw] sm:text-[1.7vw] hover:text-[gray]">
+        <h4 className=" text-[3vw] sm:text-[2vw] hover:text-[gray]">
           {question}
         </h4>
         <div className="relative">
@@ -40,7 +40,7 @@ const AccordionItem = ({ question, answer }) => {
       </div>
       <p
         ref={accorDescription}
-        className="accordionTransition py-[1vw] text-[2vw] sm:text-[1vw] "
+        className="accordionTransition py-[1vw] text-[3vw] sm:text-[2vw] lg:text-[1.5vw] "
       >
         {answer}
       </p>
