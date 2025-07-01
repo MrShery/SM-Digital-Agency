@@ -40,7 +40,7 @@ const AccordionItem = ({ question, answer }) => {
       </div>
       <p
         ref={accorDescription}
-        className="accordionTransition py-[1vw] text-[3.8vw] xs:text-[3.5vw] sm:text-[2vw] lg:text-[1.5vw] "
+        className="accordionTransition py-[1vw] text-[3vw] xs:text-[3.5vw] sm:text-[2vw] lg:text-[1.5vw] "
       >
         {answer}
       </p>
