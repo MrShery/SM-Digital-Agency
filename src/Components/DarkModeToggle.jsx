@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import { IoMdSunny } from "react-icons/io";
+import { IoMoon } from "react-icons/io5";
 
 const DarkModeToggle = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -16,9 +18,9 @@ const DarkModeToggle = () => {
   return (
     <button
       onClick={() => setDarkMode(!darkMode)}
-      className="bg-white py-[.5vw] px-[1vw] text-[1.19vw]  dark:bg-gray-700 dark:text-white rounded-lg"
+      className="bg-white py-[.78vw] px-[1vw] text-[1.19vw]  dark:bg-gray-700 dark:text-white rounded-lg"
     >
-      {darkMode ? "Dark" : "Light"}
+      {darkMode ? <IoMoon /> :<IoMdSunny /> }
     </button>
   );
 };

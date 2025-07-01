@@ -39,7 +39,7 @@ const ResNavMenu = ({ navMenu, setToggle, toggle }) => {
           Launch Your Brand
         </button>
         <div className="flex flex-wrap justify-end gap-1">
-          <button className="bg-white sm:text-[16px] text-[3vw] hover:text-white hover:bg-[#8043ef] myTransition rounded-lg py-[1vw] px-[5vw] md:px-[2vw]">
+          <button className="bg-white sm:text-[16px] text-[2.5vw] hover:text-white hover:bg-[#8043ef] myTransition rounded-lg py-[.5vw] px-[3vw] md:px-[2vw]">
             Client Portal
           </button>
           <DarkModeToggle />
