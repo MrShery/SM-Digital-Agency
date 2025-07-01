@@ -1,14 +1,10 @@
 import React, {useRef, useEffect } from "react";
 import LogoWhiteBg from "../../../assets/Media/Logo/LogoWhiteBg.png";
+import LogoPurpleBg from "../../../assets/Media/Logo/Asset 4.png";
 import PhoneImg1 from "../../../assets/Media/Pictures/phoneImg-1.webp";
 import PhoneImg2 from "../../../assets/Media/Pictures/phoneImg-2.webp";
 import PhoneImg3 from "../../../assets/Media/Pictures/phoneImg-3.webp";
-import PhoneImg4 from "../../../assets/Media/Pictures/phoneImg-4.webp";
-import PhoneImg5 from "../../../assets/Media/Pictures/phoneImg-5.webp";
-import PhoneImg6 from "../../../assets/Media/Pictures/phoneImg-6.webp";
-import PhoneImg7 from "../../../assets/Media/Pictures/phoneImg-7.webp";
-import PhoneImg8 from "../../../assets/Media/Pictures/phoneImg-8.webp";
-import PhoneImg9 from "../../../assets/Media/Pictures/phoneImg-9.webp";
+
 import VerticalLine from "../../VerticalLine";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -75,7 +71,13 @@ const ImageShowCase = () => {
           data-anim="zoom"
             src={LogoWhiteBg}
             alt="logo"
-            className="w-[10vw] h-[10vw] rounded-[3vw] bgGlowHover"
+            className="w-[10vw] h-[10vw] rounded-[3vw] bgGlowHover block dark:hidden"
+          />
+          <img
+          data-anim="zoom"
+            src={LogoPurpleBg}
+            alt="logo"
+            className="w-[10vw] h-[10vw] rounded-[3vw] bgGlowHover hidden dark:block"
           />
           <div className="flex gap-[4vw] w-[27vw] h-[45vw] absolute top-0  left-[-14vw] ">
             <img data-anim="top"
