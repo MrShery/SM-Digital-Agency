@@ -20,7 +20,7 @@ const DarkModeToggle = () => {
       onClick={() => setDarkMode(!darkMode)}
       className="bg-white py-[.78vw] px-[1vw] text-[1.19vw]  dark:bg-gray-700 dark:text-white rounded-lg"
     >
-      {darkMode ? <IoMoon /> :<IoMdSunny /> }
+      {darkMode ? <IoMoon className="text-[3vw] sx:text-[2.7vw] md:text-[1.3vw] sx:text-[2.7vw] lg:text-[1.2vw]" /> :<IoMdSunny className="text-[3vw] sx:text-[2.7vw] md:text-[1.3vw] sx:text-[2.7vw] lg:text-[1.2vw]" /> }
     </button>
   );
 };
