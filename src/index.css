@@ -33,7 +33,7 @@ body {
 }
 /* ========================Resutls Section Background Linear Gradient=============================== */
 .customGradient-bg {
-  background-image: linear-gradient(#7f43ef69, #0000 60%);
+  background-image: linear-gradient(#8043ef, #0000 60%);
   align-items: center;
 }
 .customGradient-bg2 {

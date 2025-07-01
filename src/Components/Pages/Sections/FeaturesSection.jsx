@@ -10,8 +10,8 @@ export const FeaturesSection = () => {
       <SectionTitleInfo
       className=" sm:px-[1px] py-[4vw] md:py-0"
         titleClassName="lg:text-[3.41vw] font-semibold lg:px-[5vw] px-[8vw] md:px-0"
-        subTitleClassName=" scale-y-100 "
         subTitle="Learning Platform"
+        subTitleClassName=" scale-y-100  text-[5vw] xs:text-[4vw] "
         title="The Best Learning Platform. Period."
       />
 

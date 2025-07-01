@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Logo from "./Logo";
 import { GrMenu } from "react-icons/gr";
 import ResNavMenu from "./ResNavMenu";
+import DarkModeToggle from "./DarkModeToggle";
 
 const NavBar = () => {
   const navMenu = [
@@ -12,7 +13,7 @@ const NavBar = () => {
   ];
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className=" w-[90%] sticky top-[15px] z-[999] bg-gradient-to-r from-[#15091d] via-[#8043ef]  to-[#15091d] rounded-[18px] mx-auto px-[4vw] py-[4vw] sm:py-[1.5vw] sm:px-12 lg:py-[1.2vw] mt-4 flex justify-between  gap-0 lg:gap-10 items-center ">
+    <nav className=" w-[90%] sticky top-[15px] z-[999] bg-gradient-to-r from-[#15091d] via-[#8043ef]  to-[#15091d] rounded-[18px] mx-auto px-[4vw] py-[6px] sm:py-[1.5vw] sm:px-12 lg:py-[1.2vw] mt-4 flex justify-between  gap-0 lg:gap-10 items-center ">
       <div>
         <Logo className="w-[30vw] sm:w-[19vw] md:w-[11vw] h-[6.5vw]  sm:h-[5vw] md:h-[2.5vw]" />
       </div>
@@ -29,13 +30,14 @@ const NavBar = () => {
           ))}
         </ul>
         <div className="gap-[1vw] items-center hidden lg:flex justify-end ">
-          <button className="text-white hover:text-purple-100 text-[1.14vw]">
+          <button className="text-white  hover:text-purple-100 text-[1.14vw]">
             Launch Your Brand
           </button>
           <button className="bg-white rounded-lg py-[.5vw] px-[1vw] text-[1.19vw] ">
             {" "}
             Client Portal
           </button>
+          <DarkModeToggle/>
         </div>
         <GrMenu onClick={()=> {setToggle(!toggle)}} className="text-white text-[4vw] xs:text-[3.5vw] sm:text-[30px] cursor-pointer lg:hidden" />
         { <ResNavMenu navMenu={navMenu} setToggle={setToggle} toggle={toggle} />}
