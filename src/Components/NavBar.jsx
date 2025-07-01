@@ -33,10 +33,10 @@ const NavBar = () => {
           <button className="text-white  hover:text-purple-100 text-[1.14vw]">
             Launch Your Brand
           </button>
-          <button className="bg-white rounded-lg py-[.5vw] px-[1vw] text-[1.19vw] ">
+          {/* <button className="bg-white rounded-lg py-[.5vw] px-[1vw] text-[1.19vw] ">
             {" "}
             Client Portal
-          </button>
+          </button> */}
           <DarkModeToggle/>
         </div>
         <GrMenu onClick={()=> {setToggle(!toggle)}} className="text-white text-[4vw] xs:text-[3.5vw] sm:text-[30px] cursor-pointer lg:hidden" />
