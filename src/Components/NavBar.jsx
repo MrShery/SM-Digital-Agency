@@ -13,9 +13,9 @@ const NavBar = () => {
   ];
   const [toggle, setToggle] = useState(false);
   return (
-    <nav className=" w-[90%] sticky top-[15px] z-[999] bg-gradient-to-r from-[#15091d] via-[#8043ef]  to-[#15091d] rounded-[18px] mx-auto px-[4vw] py-[6px] sm:py-[1.5vw] sm:px-12 lg:py-[1.2vw] mt-4 flex justify-between  gap-0 lg:gap-10 items-center ">
+    <nav className=" w-[90%] sticky top-[15px] z-[999] bg-gradient-to-r from-[#15091d] via-[#8043ef]  to-[#15091d] rounded-[18px] mx-auto px-[4vw] py-[6px] xs:py-[1vw] sm:py-[1.5vw] sm:px-12 lg:py-[1.2vw] mt-4 flex justify-between  gap-0 lg:gap-10 items-center ">
       <div>
-        <Logo className="w-[30vw] sm:w-[19vw] md:w-[11vw] h-[6.5vw]  sm:h-[5vw] md:h-[2.5vw]" />
+        <Logo className="w-[30vw] xs:w-[27vw] sm:w-[19vw] md:w-[11vw] h-[6.5vw] xs:h-[5.5vw] sm:h-[5vw] md:h-[2.5vw]" />
       </div>
       <div className=" w-[83%] flex lg:justify-between justify-end relative">
         <ul className="gap-[2vw] items-center hidden lg:flex text-[1.19vw]">

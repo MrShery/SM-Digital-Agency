@@ -8,7 +8,7 @@ const HeroSection = () => {
       <SectionTitleInfo
         title="We’re Changing How E-Com Brands Grow"
         pera="We take e-com growth to another level by giving you every tool, system, and strategy you need to dominate this new digital economy"
-        titleClassName="lg:px-[2vw] px-[5vw] lg:leading-[4.8vw] lg:text-[4.8vw] font-semibold md:px-0 "
+        titleClassName="lg:px-[2vw] px-[5vw] lg:leading-[5vw] lg:text-[4.7vw] font-semibold md:px-0 "
         className=" mt-4"
         peraClassName="hidden xs:block"
       />

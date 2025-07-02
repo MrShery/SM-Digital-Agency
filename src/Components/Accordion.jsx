@@ -27,7 +27,7 @@ const Accordion = () => {
 
 
   return (
-    <div className=" w-[84vw] md:w-[50.7vw] bg-black dark:bg-[#8043ef] rounded-[1.9vw] px-[6vw] py-[4vw]">
+    <div className=" w-[82vw] md:w-[50.7vw] bg-black dark:bg-[#8043ef] rounded-[1.9vw] px-[6vw] py-[4vw]">
       {questionAnswer.map((accorItem, index) => (
         <div key={index} className="border-b border-[#ffffff83] py-[1vw] md:py-[1.1vw]">
           <AccordionItem question={accorItem.question} answer={accorItem.answer} />
