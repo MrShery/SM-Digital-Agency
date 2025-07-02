@@ -51,11 +51,11 @@ const Footer = () => {
             </span>
           </p>
         </div>
-        <p className=" text-[3vw] xs:text-[3.4vw] sm:leading-none leading-5 font-[200] sm:text-[2vw] md:text-[2.3vw] lg:text-[1.2vw] px-2 sm:px-[3vw] md:px-[10vw] lg:px-[15vw] ms:pb-5 pt-2">
+        {/* <p className=" text-[3vw] xs:text-[3.4vw] sm:leading-none leading-5 font-[200] sm:text-[2vw] md:text-[2.3vw] lg:text-[1.2vw] px-2 sm:px-[3vw] md:px-[10vw] lg:px-[15vw] ms:pb-5 pt-2">
           This site is not a part of the Facebook website or Facebook Inc.
           Additionally, This site is NOT endorsed by Facebook in any way.
           FACEBOOK is a trademark of FACEBOOK, Inc.
-        </p>
+        </p> */}
         <p className=" text-[2.5vw] xs:text-[2.5vw] sm:text-[10px] md:text-[1.1vw] py-2">
           ©2025 SM Digital Global. All Rights Reserved.
         </p>

@@ -25,7 +25,7 @@ const HomePage = () => {
       <HelpSection />
       <VerticalLine />
       <QuestionSection/>
-      {/* <Footer/> */}
+      <Footer/>
     </section>
   );
 };

@@ -10,7 +10,7 @@ const HeroSection = () => {
         pera="We take e-com growth to another level by giving you every tool, system, and strategy you need to dominate this new digital economy"
         titleClassName="lg:px-[2vw] px-[5vw] lg:leading-[5vw] lg:text-[4.7vw] font-semibold md:px-0 "
         className=" mt-4"
-        peraClassName="hidden xs:block"
+        peraClassName="hidden xs:block lg:leading-[30px]"
       />
       <div className="xs:w-[80vw]   mx-auto overflow-hidden  sm:translate-y-[-4.5%] mt-10 sm:mt-0">
         <img src={HeroImg} alt="" className=" sm:scale-100 scale-125 origin-left w-full h-full" />
