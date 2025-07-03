@@ -13,7 +13,7 @@ import Footer from "../Footer";
 const HomePage = () => {
   
   return (
-    <section className="" >
+    <section >
       <NavBar />
       <HeroSection />
       <VerticalLine />

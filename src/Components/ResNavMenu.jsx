@@ -35,13 +35,13 @@ const ResNavMenu = ({ navMenu, setToggle, toggle }) => {
             <a href={navItem.sectionId}>{navItem.navTitle}</a>{" "}
           </li>
         ))}
-        <button className="text-white hover:text-purple-100 sm:text-[16px] text-[3vw]">
+        {/* <button className="text-white hover:text-purple-100  sm:text-[16px] text-[3vw]">
           Launch Your Brand
-        </button>
+        </button> */}
         <div className="flex flex-wrap justify-end gap-1">
-          {/* <button className="bg-white sm:text-[16px] text-[2.5vw] hover:text-white hover:bg-[#8043ef] myTransition rounded-lg py-[.5vw] px-[3vw] md:px-[2vw]">
-            Client Portal
-          </button> */}
+          <a href="#helpSection" className="bg-white sm:text-[16px] text-[2.5vw] hover:text-white hover:bg-[#8043ef] myTransition rounded-lg py-[.5vw] px-[3vw] md:px-[2vw]">
+            Launch Your Brand
+          </a>
           <DarkModeToggle />
         </div>
       </ul>

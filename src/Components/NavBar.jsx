@@ -21,7 +21,9 @@ const NavBar = () => {
         <ul className="gap-[2vw] items-center hidden lg:flex text-[1.19vw]">
           {navMenu.map((navItem, index) => (
             <li
-            onClick={()=> {setToggle(false)}}
+              onClick={() => {
+                setToggle(false);
+              }}
               key={navItem + index}
               className=" text-white cursor-pointer hover:text-purple-300  text-[1.0vw]"
             >
@@ -30,17 +32,25 @@ const NavBar = () => {
           ))}
         </ul>
         <div className="gap-[.5vw] items-center hidden lg:flex justify-end ">
-          <button className="text-white  hover:text-purple-100 text-[1.14vw]">
+          {/* <button className="bg-white rounded-lg py-[.5vw] px-[1vw] text-[1.09vw] ">
             Launch Your Brand
-          </button>
-          {/* <button className="bg-white rounded-lg py-[.5vw] px-[1vw] text-[1.19vw] ">
+          </button> */}{" "}
+          <a
+            href="#helpSection"
+            className="bg-white rounded-lg py-[.5vw] px-[1vw] text-[1.122vw] "
+          >
             {" "}
-            Client Portal
-          </button> */}
-          <DarkModeToggle/>
+            Launch Your Brand
+          </a>
+          <DarkModeToggle />
         </div>
-        <GrMenu onClick={()=> {setToggle(!toggle)}} className="text-white text-[4vw] xs:text-[3.5vw] sm:text-[30px] cursor-pointer lg:hidden" />
-        { <ResNavMenu navMenu={navMenu} setToggle={setToggle} toggle={toggle} />}
+        <GrMenu
+          onClick={() => {
+            setToggle(!toggle);
+          }}
+          className="text-white text-[4vw] xs:text-[3.5vw] sm:text-[30px] cursor-pointer lg:hidden"
+        />
+        {<ResNavMenu navMenu={navMenu} setToggle={setToggle} toggle={toggle} />}
       </div>
     </nav>
   );
