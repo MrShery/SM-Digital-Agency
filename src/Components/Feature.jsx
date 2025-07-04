@@ -8,7 +8,7 @@ const Feature = ({ featureID, title, subTitle, description, profileImage }) => {
         featureID % 2 != 0 && "flex-row-reverse"
       }`}
     >
-      <div className="md:w-[40.9vw] lg:w-[46vw] w-[90vw] xs:w-[85vw] dark:bg-black bg-white sm:w-[70vw] mx-auto  bgGlow rounded-xl  sm:rounded-[1vw] overflow-hidden border-[2px] border-[#7f43ef57]">
+      <div className="md:w-[40.9vw] lg:w-[46vw] w-[90vw] xs:w-[85vw] bg-black sm:w-[70vw] mx-auto  bgGlow rounded-xl  sm:rounded-[1vw] overflow-hidden border-[2px] border-[#7f43ef57]">
         <img
           src={profileImage}
           alt="feature Image..."
