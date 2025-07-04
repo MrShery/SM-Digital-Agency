@@ -8,11 +8,11 @@ const Feature = ({ featureID, title, subTitle, description, profileImage }) => {
         featureID % 2 != 0 && "flex-row-reverse"
       }`}
     >
-      <div className="md:w-[40.9vw] lg:w-[46vw] w-[90vw] xs:w-[85vw] sm:w-[70vw] mx-auto  bgGlow rounded-xl  sm:rounded-[1vw] overflow-hidden border-[2px] border-[#7f43ef57]">
+      <div className="md:w-[40.9vw] lg:w-[46vw] w-[90vw] xs:w-[85vw] bg-white sm:w-[70vw] mx-auto  bgGlow rounded-xl  sm:rounded-[1vw] overflow-hidden border-[2px] border-[#7f43ef57]">
         <img
           src={profileImage}
           alt="feature Image..."
-          className="  w-full lg:h-[25vw] md:h-[30vw] xs:h-[30vw] sm:h-[39vw] scale-x-[1.19]"
+          className="  w-full lg:h-[25vw] md:h-[30vw] xs:h-[30vw] sm:h-[39vw] scale-[.9]"
         />
       </div>
       <SectionTitleInfo

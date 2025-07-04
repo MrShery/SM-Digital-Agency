@@ -2,7 +2,11 @@ import React from "react";
 import SectionTitleInfo from "../../SectionTitleInfo";
 import Feature from "../../Feature";
 
-import FeatureImg1 from "../../../assets/Media/Pictures/feature-1.webp";
+// import FeatureImg1 from "../../../assets/Media/Pictures/feature-1.webp";
+import FeatureImg1 from "../../../assets/Media/Pictures/Features/performanceMarketing.png";
+import FeatureImg2 from "../../../assets/Media/Pictures/Features/metaAds.png";
+import FeatureImg3 from "../../../assets/Media/Pictures/Features/seo.png";
+import FeatureImg4 from "../../../assets/Media/Pictures/Features/storeDevelopment.png";
 
 export const FeaturesSection = () => {
   const features = [
@@ -14,21 +18,21 @@ export const FeaturesSection = () => {
         "Built for founders. Our performance marketing helps you reach the right customers, scale faster, and turn ad spend into predictable growth  without the guesswork",
     },
     {
-      imgURL: FeatureImg1,
+      imgURL: FeatureImg2,
       title: "Scale Smarter With Google Ads Mastery",
       subTitle: "Brand Foundations",
       description:
         "Everything your brand needs to win with Google Ads from high-converting search campaigns to product retargeting and shopping ads. Built for performance",
     },
     {
-      imgURL: FeatureImg1,
+      imgURL: FeatureImg3,
       title: "Rank Higher. Scale Faster With SEO.",
       subTitle: "Brand Foundations",
       description:
         "Everything your brand needs to climb the search ranks from keyword strategy to on-page SEO and technical optimization",
     },
     {
-      imgURL: FeatureImg1,
+      imgURL: FeatureImg4,
       title: "Launch A Store Built To Scale",
       subTitle: "Brand Foundations",
       description:
