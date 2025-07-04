@@ -37,7 +37,7 @@ const NavBar = () => {
           </button> */}{" "}
           <a
             href="#helpSection"
-            className="bg-white rounded-lg py-[.5vw] px-[1vw] text-[1.122vw] "
+            className="bg-white hover:bg-[#8043ef] hover:text-white rounded-lg py-[.5vw] px-[1vw] text-[1.122vw] "
           >
             {" "}
             Launch Your Brand
