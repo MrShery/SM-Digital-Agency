@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { use, useEffect, useRef, useState } from "react";
 import SectionTitleInfo from "../../SectionTitleInfo";
 import { IoMdPause, IoMdPlay } from "react-icons/io";
 import SM_introVideo from "../../../assets/Media/Videos/SMDigitalintroVideo.mp4"
@@ -12,6 +12,12 @@ const OurMissonSection = () => {
     }
     setToggle(!toggle);
   };
+  useEffect(()=>{
+       if (videoRef.current) {
+         videoRef.current.play();
+      videoRef.current.muted = false;
+    }
+  },[])
   return (
     <section id="our-mission" className="pb-8">
       <SectionTitleInfo
@@ -23,7 +29,7 @@ const OurMissonSection = () => {
         peraClassName="px-[6vw] leading-[3vw] md:text-[2vw] lg:text-[1.6vw] xs:w-fit  md:w-[65vw] text-[#ffffff93] "
       /> 
       <div className=" group ourMissionVideoContainer relative my-8 md:my-0  flex justify-center items-center w-[88%] rounded-[3.5vw]  md:rounded-[1.5vw] border border-[#ffffff5e] overflow-hidden mx-auto  cursor-pointer hover:scale-105 myTransition">
-        <video onClick={handleClick} ref={videoRef} src={SM_introVideo} autoPlay loop playsInline loading="lazy" ></video>
+        <video onClick={handleClick} ref={videoRef} src={SM_introVideo} autoPlay muted loop playsInline loading="lazy" ></video>
 
         {/* ====================================Play Button and SVG Circle============================== */}
         <div className=" absolute top-[50%] left-[50%] translate-x-[-50%]  translate-y-[-50%] z-10">
