@@ -3,7 +3,8 @@ import AgencyLogo from "../assets/Media/Logo/Asset 1.png"
 
 const Logo = ({className}) => {
   return (
-    <img src={AgencyLogo} className={`${className}`} alt="Agency Logo" />
+    <a href="/"><img src={AgencyLogo} className={`${className}`} alt="Agency Logo" /></a>
+    
   )
 }
 
