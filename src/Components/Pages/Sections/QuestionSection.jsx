@@ -25,5 +25,4 @@ const QuestionSection = () => {
     </section>
   );
 };
-
 export default QuestionSection;

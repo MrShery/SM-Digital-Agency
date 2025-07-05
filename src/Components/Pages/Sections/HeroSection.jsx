@@ -1,6 +1,6 @@
 import React from "react";
 import SectionTitleInfo from "../../SectionTitleInfo";
-import HeroImg from "../../../assets/Media/Pictures/HeroMainImage.webp";
+import HeroImg from "../../../assets/Media/Pictures/HeroMainImage.png";
 
 const HeroSection = () => {
   return (

@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from "react";
-import { GoDash } from "react-icons/go";
 
 const AccordionItem = ({ question, answer }) => {
   const [toggle, setToggle] = useState(false);

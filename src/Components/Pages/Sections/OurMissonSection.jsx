@@ -1,12 +1,10 @@
 import React, { useRef, useState } from "react";
 import SectionTitleInfo from "../../SectionTitleInfo";
-import { BsPlayCircleFill } from "react-icons/bs";
-import { MdPauseCircleFilled } from "react-icons/md";
-import { IoPause, IoPlay } from "react-icons/io5";
-import { IoMdPlay } from "react-icons/io";
+import { IoMdPause, IoMdPlay } from "react-icons/io";
+import SM_introVideo from "../../../assets/Media/Videos/SMDigitalintroVideo.mp4"
 
 const OurMissonSection = () => {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
   const videoRef = useRef(null);
   const handleClick = () => {
     if (videoRef.current) {
@@ -25,25 +23,20 @@ const OurMissonSection = () => {
         peraClassName="px-[6vw] leading-[3vw] md:text-[2vw] lg:text-[1.6vw] xs:w-fit  md:w-[65vw] text-[#ffffff93] "
       /> 
       <div className=" group ourMissionVideoContainer relative my-8 md:my-0  flex justify-center items-center w-[88%] rounded-[3.5vw]  md:rounded-[1.5vw] border border-[#ffffff5e] overflow-hidden mx-auto  cursor-pointer hover:scale-105 myTransition">
-        <img
-          src="https://cdn.prod.website-files.com/664cd251c9f39da04f82f2ba/664ceb72876a586715373efe_StillsJPG_2.10.4-p-1600.webp"
-          muted
-          loop
-          ref={videoRef}
-          alt=""
-          className="w-full h-full "
-        />
-        {/* =============================Div Overlay effect on Video============================= */}
-        <div className="w-full h-full absolute bg-[#00000067]"></div>
+        <video onClick={handleClick} ref={videoRef} src={SM_introVideo} autoPlay muted loop ></video>
+
         {/* ====================================Play Button and SVG Circle============================== */}
         <div className=" absolute top-[50%] left-[50%] translate-x-[-50%]  translate-y-[-50%] z-10">
-          <IoMdPlay
+         {toggle? <IoMdPlay
             onClick={handleClick}
-            className=" text-[6vw] ps-1 myTransition absolute top-[50%] left-[50%] translate-x-[-50%]  translate-y-[-50%]  text-[#ffffff] group-hover:opacity-100"
-          />
+            className={`text-[6vw] ps-1 myTransition absolute top-[50%] left-[50%] translate-x-[-50%] z-50  translate-y-[-50%]  text-[#ffffff] group-hover:opacity-100 ${!toggle&&"group-hover:opacity-100 opacity-0"}`}
+          />:<IoMdPause
+            onClick={handleClick}
+            className={`text-[6vw] ps-1 myTransition absolute top-[50%] left-[50%] translate-x-[-50%] z-50  translate-y-[-50%]  text-[#ffffff] group-hover:opacity-100 ${!toggle&&"group-hover:opacity-100 opacity-0"}`}
+          />}
           {/* ================================SVG and Custom CSS is written for Hover Effect========================== */}
           <svg
-            className=" w-[11vw] h-[11vw] z-20 circleSVG "
+            className={` w-[11vw] h-[11vw] z-20 circleSVG ${!toggle&&"group-hover:opacity-100 opacity-0"} `}
             viewBox="25 25 50 50"
           >
             <circle r="20" cy="50" cx="50"></circle>

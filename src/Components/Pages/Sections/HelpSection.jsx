@@ -1,7 +1,5 @@
 import React from "react";
 import SectionTitleInfo from "../../SectionTitleInfo";
-import { ImCross } from "react-icons/im";
-import { RxCross2 } from "react-icons/rx";
 import BookCallBg from "../../../assets/Media/Pictures/helpSectionBox.png";
 
 const HelpSection = () => {

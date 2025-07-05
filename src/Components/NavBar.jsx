@@ -32,9 +32,6 @@ const NavBar = () => {
           ))}
         </ul>
         <div className="gap-[.5vw] items-center hidden lg:flex justify-end ">
-          {/* <button className="bg-white rounded-lg py-[.5vw] px-[1vw] text-[1.09vw] ">
-            Launch Your Brand
-          </button> */}{" "}
           <a
             href="#helpSection"
             className="bg-white hover:bg-[#8043ef] hover:text-white rounded-lg py-[.5vw] px-[1vw] text-[1.122vw] "

@@ -1,8 +1,6 @@
 import React from "react";
 import SectionTitleInfo from "../../SectionTitleInfo";
 import Feature from "../../Feature";
-
-// import FeatureImg1 from "../../../assets/Media/Pictures/feature-1.webp";
 import FeatureImg1 from "../../../assets/Media/Pictures/Features/performanceMarketing.png";
 import FeatureImg2 from "../../../assets/Media/Pictures/Features/metaAds.png";
 import FeatureImg3 from "../../../assets/Media/Pictures/Features/seo.png";
